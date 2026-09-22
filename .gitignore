@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.dist-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Python version management
+.python-version
+
+# Secrets and environment
+.env
+.env.local
+.env.*.local
+
+# Generated sample data
+sample.duckdb
+*.db
+*.sqlite3
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude Code
+.claude/
