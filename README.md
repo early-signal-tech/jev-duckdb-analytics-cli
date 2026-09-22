@@ -71,6 +71,16 @@ The CLI returns JSON with confidence scores and probabilities:
 }
 ```
 
+## Chain Evaluation
+
+For evaluating LLM chain outputs and multi-step reasoning, see `chain_evaluation.py`:
+
+```bash
+uv run chain_evaluation.py
+```
+
+This module provides examples of evaluating Jev-based chains with configurable metrics and test scenarios.
+
 ## Architecture
 
 1. **Query Execution**: Runs the DuckDB query and extracts results
